@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="utf-8">
+    <title>ToDo List</title>
+
+    <meta name="author" content="Filip Maćkowiak">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="ajax_core.js"></script>
+    <script src="script.js"></script>
+    <link href="fontello-1f951f43/css/fontello.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="banner">
+            <p>Your Personal To To List</p>
+        </div>
+
+        <div class="interfacecont">
+
+            <div class="main">
+
+                <table>
+                    <thead>
+                        <th>Done</th>
+                        <th>Priority</th>
+                        <th>To Do</th>
+                        <th>Added</th>
+                        <th></th>
+                    </thead>
+                    <tbody id="ToDoList">
+                        
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="menuup">
+
+                <div class="option">
+                    <input type="button" value="Create a database" id="createButton">
+                </div>
+               
+                <fieldset>
+                    <legend>Add a task</legend>
+                    <form>
+                    <div class="option"> 
+                        <label>Priority of the task: <input type="number" id="nr"></label>
+                    </div>
+                        
+                    <div class="option">
+                        <label>Name of the task: <input type="text" id="content"></label>
+                    </div>
+
+                    <div class="option">
+                        <input type="button" value="Add the entry" id="addEntryButton" onclick="validateInput();">
+                    </div>
+                    </form>
+
+                </fieldset>
+
+                <div class="option">
+                    <input type="button" value="Refresh the table" id="selectButton">
+                </div>
+
+                <div class="option">
+
+                </div>
+                
+
+            </div>
+
+            <div class="menubottom">
+
+                <p id="results">Your last action will be displayed here.</p>
+
+            </div>
+            
+        </div>        
+
+        <div class="footer">
+            <p>The site was made by Filip Maćkowiak</p>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

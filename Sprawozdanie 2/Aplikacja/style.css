@@ -1,0 +1,129 @@
+body
+{
+    margin: 0;
+    background-color: #666699;
+}
+
+.container
+{
+    width: 900px;
+    background-color: #0099ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner
+{
+    text-align: center;
+    width: 894px;
+    height: 50px;
+    background-color: #00ccff;
+    border: 3px #008fb3 solid;
+    border-radius: 5%;
+}
+
+.banner p
+{
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+}
+
+.interfacecont
+{
+    width: 900px;
+    height: 550px;
+}
+
+.main
+{
+    float:left;
+    background-color: #FFF;
+    width: 495px;
+    height: 500px;
+    border: 3px #000 dashed;
+    margin: 10px;
+}
+
+.main table
+{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main table th
+{
+    font-weight: bold;
+    border-right: 2px dashed #751b1b;
+}
+
+.main table th:last-child
+{
+    border-right: none;
+}
+
+.main table tr
+{
+    border-bottom: 2px rgba(133, 133, 173, 50%) solid;
+}
+
+.menuup
+{
+    padding: 10px;
+    height: 240px;
+    width: 330px;
+    float:left;
+    margin: 5px;
+}
+
+.menubottom
+{
+    height: 240px;
+    width: 330px;
+    float:left;
+    margin: 5px;
+
+}
+
+.footer
+{
+    clear: both;
+    background-color: #4dffff;
+}
+
+.footer p
+{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.option
+{
+    padding: 3px;
+}
+
+fieldset
+{
+    margin: 5px;
+}
+
+#results
+{
+    font-size: 16px;
+    padding: 5px;
+    background-color: #00ff99;
+    border: 3px #00e600 solid;
+    border-radius: 3%;
+}
+
+.icon-trash-empty
+{
+    cursor: pointer;
+}
+
+.icon-pencil
+{
+    cursor: pointer;
+}
