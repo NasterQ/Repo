@@ -70,7 +70,7 @@ while ($record = $result->fetch_assoc()){
     $tasks->setNumber($record['Nr']);
     $tasks->setContent($record['ToDo']);
     $tasks->setMdate($record['M_Date']);
-    $data .= "<tr><td><input type=\"checkbox\" id=\"ch\"></td><td>{$tasks->getNumber()}</td><td>{$tasks->getContent()}</td><td>{$tasks->getMdate()}</td><td><i class=\"icon-pencil\" onclick=editR({$tasks->getId()},\"{$tasks->getContent()}\");></i></td><td><i class=\"icon-trash-empty\" onclick=deleteR({$tasks->getId()})></i></td></tr>";
+    $data .= "<tr><td><input type=\"checkbox\" id=\"ch\"></td><td>{$tasks->getNumber()}</td><td>{$tasks->getContent()}</td><td>{$tasks->getMdate()}</td><td><i class=\"icon-pencil\" onclick=\"editR('{$tasks->getId()}','{$tasks->getContent()}');\"></i></td><td><i class=\"icon-trash-empty\" onclick=deleteR({$tasks->getId()})></i></td></tr>";
     $i++;
 }
 
