@@ -44,9 +44,11 @@ def findDates(soup):
 
 def combine(t1, t2, n, m, d):
     matches = []
+    t_i = 0
     for i in range(len(m)):
-        team1 = str(t1[i]) + " from " + str(n[i])
-        team2 = str(t2[i]) + " from " + str(n[i+1])
+        team1 = str(t1[i]) + " from " + str(n[t_i])
+        team2 = str(t2[i]) + " from " + str(n[t_i+1])
+        t_i += 2
         mat = str(m[i])
         date = str(d[i])
 
