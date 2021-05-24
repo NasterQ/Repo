@@ -1,0 +1,95 @@
+body {
+  background-color: #595959;
+}
+
+.App {
+  text-align: center;
+  width: 1000px;
+  background-color: #66b3ff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App h1 {
+  margin: 0;
+  background-color: #3399ff;
+
+}
+
+button {
+  font-size: 20px;
+}
+
+.preview {
+  width: 50px;
+  margin: 10px;
+}
+
+.photo-prev {
+  border: 2px solid #4d4d4d;
+  background-size: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-image: url("img/BG_preview.png");
+  float: left;
+}
+
+.team-desc
+{
+  margin-left: 10px;
+  float: left;
+}
+
+.entry
+{
+  background-color: rgba(242, 242, 242, 0.5);
+  border: 2px solid #bfbfbf;
+  border-radius: 20%;;
+  padding: 5px;
+  margin: 4px;
+  padding-right: 15px;
+  float: left;
+  width: 30%;
+}
+
+.clearStyle
+{
+  clear: both;
+}
+
+img.team-detail-photo {
+  background-color: #FFF;
+  width: 150px;
+  border-radius: 30%;
+  border: 3px solid #b3b3b3;
+}
+
+.team-detail-top {
+  border: 5px solid #999;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #FFF;
+}
+
+.player {
+  float: left;
+  width: 190px;
+  border: 2px solid #000;
+  margin: 3px;
+}
+
+.headerStyle{
+  color: 'white';
+  text-decoration: none;
+}
+
+.headerStyle:active {
+  color: red;
+}
+
+.headerStyle:visited{
+  color: white;
+}
